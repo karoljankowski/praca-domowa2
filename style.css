@@ -1,0 +1,20 @@
+h1 {
+    color: brown;
+}
+.mainHeader {
+    color: aqua; background: #111111;
+   font-size: 64px;
+}
+.sectionHeader {
+    color: aqua; background: #111111;
+}
+.paragrafHeader{
+    color: aqua; background: #111111;
+}
+.bodyHeader{
+    background: #c07f7f;
+}
+.classHeader{
+    color: blue;
+    font-size: 50px;
+}
