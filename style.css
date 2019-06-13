@@ -1,12 +1,11 @@
 h1 {
     color: brown;
 }
-.mainHeader {
-    color: aqua; background: #111111;
-   font-size: 64px;
-}
+
 .sectionHeader {
     color: aqua; background: #111111;
+    width: 100%;
+    max-width: 700px;
 }
 
 .bodyHeader{
@@ -14,5 +13,53 @@ h1 {
 }
 .classHeader{
     color: blue;
-    font-size: 50px;
+    font-size: 30px;
+    margin-bottom: 32px;
+    }
+.about {
+  
+}
+.paragraph {
+    padding: 0 0 0 8px;
+}
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+}
+.footer {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-bottom: 10px;
+   
+
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: chartreuse;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+    right: 50%;
+}
+.top {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    padding-top: 20px;
+    
+}
+.navigation {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px;
 }
