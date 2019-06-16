@@ -1,6 +1,19 @@
-h1 {
-    color: brown;
+.about {}
+
+.about__header, .diary__title {
+    color: midnightblue;
 }
+
+.about__paragraph, .diary__paragraph {
+    color: rgb(126, 68, 68);
+    padding: 0 0 0 8px;
+}
+
+.body {
+    background: #f1e3e3;
+}
+
+.box {}
 
 .classHeader {
     color: blue;
@@ -9,13 +22,25 @@ h1 {
     text-align: center;
 }
 
-.box {}
+.diary {}
 
-.top {
-    position: fixed;
-    color: darkolivegreen;
-    bottom: 25px;
-    right: 10px;
+.diary__header {}
+
+.footer {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-bottom: 10px;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+}
+
+.main--padding {
     padding-top: 20px;
 }
 
@@ -32,52 +57,34 @@ h1 {
     color: rgb(4, 110, 110);
 }
 
-.about {}
-
-.about__body {
-    background: #a59d9d;
+.top {
+    position: fixed;
+    color: darkolivegreen;
+    bottom: 25px;
+    right: 10px;
+    padding-top: 20px;
 }
 
-.about__footer {
-    width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
-    padding-bottom: 10px;
-}
-.about__footer--margin{
-    margin-top: 48px;
-}
-
-.about__header {
-    color: midnightblue;
-}
-
-.about__header--color {
-    color: crimson;
-}
-
-.about__heading {
+.work__heading, .passion__heading {
     color: brown;
     padding-bottom: 16px;
     padding-top: 16px;
 }
 
-.about__main {
-    width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
-    padding-top: 50px;
-}
-
-.about__main--padding {
-    padding-top: 20px;
-}
-
-.about__paragraph {
-    color: rgb(126, 68, 68);
-    padding: 0 0 0 8px;
-}
-
-.about__pictures {
+.work__pictures, .passion__pictures {
     max-width: 80%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

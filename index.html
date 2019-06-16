@@ -9,24 +9,24 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="about__body">
+<body class="body">
     <header id="top" class="navigation">
         <a class="navigation__link" href="index.html">Storna główna</a><br>
         <a class="navigation__link" href="podstrona.html">Przejdz do zdjęć ze swojej pracy</a><br>
         <a class="navigation__link" href="podstrona1.html">Przejdz do zdjęć swoich pasji</a>
     </header>
-    <main class="about__main">
+    <main class="main">
         <header>
             <h1 class="classHeader">
                 Karol Jankowski - pierwszy projekt
             </h1>
         </header>
 
-        <a href="#Pamietniczek">Przejdz do pamietniczka</a>
+        <a class="navigation__link" href="#Pamietniczek">Przejdz do pamietniczka</a>
 
         <section class="about">
            
-            <h2 class="about__header">
+            <h2 class="about__header about__header--js">
                 Kim jestem?
             </h2>
             <p class="about__paragraph">
@@ -37,15 +37,15 @@
             </p>
 
         </section>
-        <section class="about" id=Pamietniczek>
-            <h2 class="about__header about__header--color about__header--js">
+        <section class="diary" id=Pamietniczek>
+            <h2 class="diary__title">
                 Pamietniczek
             </h2>
             <section>
-                <h3>
+                <h3 class="diary__header">
                     Jakie są Twoje pasje ?
                 </h3>
-                <p class="about__paragraph">
+                <p class="diary__paragraph">
                     Moją główną pasją jest sport i muzyka. Interesuję się bardzo piłką nożną, oglądałem ciągle mecze,
                     moimi ulubionymi klubami są Liverpool oraz FC Barcelona.<br>
                     Drugim zainteresowaniem jest muzyka. Gram na pianinie od 8 roku życia. Gram również na gitarze
@@ -55,11 +55,11 @@
 
             </section>
             <section>
-                <h3>
+                <h3 class="diary__header">
                     Jakie zrobisz pierwsze strony internetowe ?
 
                 </h3>
-                <p class="about__paragraph">
+                <p class="diary__paragraph">
                     Pierwszą stronę, którą będę chciał stworzyć po kursie WTF będzie strona firmy elektrycznej o nazwie
                     Elektro-Instal. Jest to firma mojego szwagra - Norberta.<br>
                     Drugą stroną będzie salon piękności mojego koleżanki - Ani.<br>
@@ -68,10 +68,10 @@
                 </p>
             </section>
             <section>
-                <h3>
+                <h3 class="diary__header">
                     Kiedy to nastąpi ?
                 </h3>
-                <p class="about__paragraph">
+                <p class="diary__paragraph">
                     Bardzo się przykładam do zajęć i do nauki frontendu, a więc mam nadzieję że w ciągu najbliższych 2
                     miesiący już coś fajnego się pojawi 👼
                 </p>
@@ -81,7 +81,7 @@
 
     </main>
     <a href="#top" class="top">wroc na górę</a>
-    <footer class="about__footer about__footer--margin">
+    <footer class="footer">
         Strona Karol Jankowskiego powstała na potrzeby realizacji pracy domowej z kursu WTF co ten frontend.
     </footer>
     <script src="main.js"></script>
